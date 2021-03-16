@@ -22,6 +22,7 @@ public class WorkHours {
                 String[] temp = line.split(",");
                 int hours = Integer.parseInt(temp[1]);
                 if (hours < min) {
+
                     min = hours;
                     result = temp[0] + ": " + temp[2];
                 }
